@@ -1,0 +1,42 @@
+@use '../../../variables.scss';
+
+.custom-checkbox {
+  input, label {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  input {
+    display: none;
+
+    &:checked + label:before {
+      background-image: url("../../../../assets/images/vetor.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: variables.$button-light-color;
+      border: 1px solid variables.$button-dark-color;
+    }
+
+    &:checked + label {
+      text-decoration: line-through;
+      color: variables.$primary-dark-color;
+    }
+  }
+
+  input + label:before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid variables.$secondary-light-color;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+  }
+
+  label {
+    transition: ease-in-out 120ms;
+  }
+}

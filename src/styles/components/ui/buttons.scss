@@ -1,0 +1,26 @@
+@use '../../variables.scss';
+@use '../../mixins.scss';
+
+.button-default {
+  @include mixins.styled-button(); 
+
+  &:hover {
+    background: variables.$secondary-light-color;
+  }
+}
+
+.button-primary {
+  @include mixins.styled-button(variables.$neutral-dark-color, variables.$button-very-light-color); 
+
+  &:hover {
+    background: variables.$secondary-light-color;
+  }
+}
+
+.button-alert {
+  @include mixins.styled-button(variables.$neutral-light-color, variables.$gradient-secondary-color); 
+
+  &:hover {
+    background: variables.$secondary-light-color;
+  }
+}

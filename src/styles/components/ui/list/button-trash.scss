@@ -1,0 +1,9 @@
+@use '../../../variables.scss';
+
+.button-trash {
+  margin: 0 !important;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  user-select: none;
+}

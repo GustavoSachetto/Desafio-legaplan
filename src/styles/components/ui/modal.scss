@@ -1,0 +1,39 @@
+@use '../../variables.scss';
+
+.modal {
+  z-index: 2000;
+  position: fixed !important;
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0px 24px 48px -12px #1018282E;
+  background-color: variables.$neutral-light-color;
+  transform: translate(-50%, -50%);
+
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background: #ffffff79;
+  backdrop-filter: blur(2px);
+}
+
+@media (max-width:variables.$mobile-medium-layout) {
+  .modal {
+    padding: 24px;
+    width: calc(100vw - 48px);
+    height: calc(100vh - 48px);
+  }
+}

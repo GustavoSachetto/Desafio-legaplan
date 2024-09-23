@@ -1,0 +1,24 @@
+@use '../../variables.scss';
+
+.container-button {
+  gap: 16px;
+  display: flex;
+  margin-top: 12px;
+  
+  button {
+    height: 51px;
+  }
+}
+
+@media (max-width:variables.$mobile-medium-layout) {
+  .container-button {
+    gap: 14px;
+    margin-top: 24px;
+    flex-direction: column-reverse;
+
+    button {
+      margin-top: 0 !important;
+      height: 100%;
+    }
+  }
+}

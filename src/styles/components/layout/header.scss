@@ -1,0 +1,42 @@
+@use '../../variables.scss';
+
+header {
+  height: 60px;
+  margin: 24px 56px;
+  padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid variables.$secondary-light-color;
+  
+  span.welcome {
+    min-width: 355px;
+    width: 20vw;
+    text-align: end;
+    color: variables.$neutral-dark-color;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  span.date {
+    color: variables.$primary-dark-color;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width:variables.$mobile-medium-layout) {
+  header {
+    height: 94px;
+    margin: 24px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: start;
+
+    span.welcome {
+      min-width: 200px;
+      text-align: start;
+      font-size: 16px;
+    }
+  }
+}

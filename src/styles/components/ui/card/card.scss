@@ -1,0 +1,21 @@
+@use '../../../variables.scss';
+
+.card {
+  width: 100%;
+  max-width: 450px;
+  margin-top: 25px;
+
+  button {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width:variables.$mobile-medium-layout) {
+  .card {
+    margin-top: 0;
+
+    button {
+      margin-top: 20px;
+    }
+  }
+}

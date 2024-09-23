@@ -1,0 +1,26 @@
+/* ============== Fonts ============== */
+
+$font-stack: 'Inter Tight', Arial, Verdana, sans-serif;
+
+/* ============== Colors ============== */
+
+$neutral-dark-color: #000000;
+$neutral-light-color: #ffffff;
+
+$primary-dark-color: #0000008A;
+$secondary-dark-color: #101828;
+
+$primary-light-color: #EAECF0;
+$secondary-light-color: #D7DDE9;
+$tertiary-light-color: #F7F9FD;
+
+$button-light-color: #A0DCF6;
+$button-dark-color: #0796D3;
+$button-very-light-color: #E7EEFB;
+
+$gradient-primary-color: linear-gradient(90deg, #0796D3 0%, #53C0F0 68.65%);
+$gradient-secondary-color: linear-gradient(90deg, #D30707 0%, #F05353 68.65%);
+
+/* ============== Layout ============== */
+
+$mobile-medium-layout: 900px

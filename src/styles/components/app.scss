@@ -1,0 +1,14 @@
+@use '../variables.scss';
+
+@import 'layout/header.scss';
+@import 'layout/main.scss';
+
+::selection {
+  background-color: variables.$primary-light-color;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: variables.$primary-dark-color;
+}

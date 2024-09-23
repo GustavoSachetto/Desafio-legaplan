@@ -1,0 +1,26 @@
+@use '../../../variables.scss';
+
+.list-item {
+  width: 100%;
+  max-width: 386px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  list-style: none;
+  border-radius: 8px;
+  border: dashed 1px variables.$secondary-light-color;
+  transition: ease-in 240ms;
+
+  &:hover {
+    border-color: transparent;
+    background-color: variables.$primary-light-color;
+  }
+}
+
+@media (max-width:variables.$mobile-medium-layout) {
+  .list-item {
+    padding: 12.5px 8px;
+  }
+}
