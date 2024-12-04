@@ -23,6 +23,8 @@ Neste projeto trabalhei com as seguintes técnologias:
 ## Comandos iniciais
 ```
 npm install
+```
+```
 npm run dev
 ```
 
