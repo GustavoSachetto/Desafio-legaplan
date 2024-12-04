@@ -1,6 +1,6 @@
 # Desafio legaplan
 
-Este projeto é um __desafio técnico__ para a vaga de __desenvolvedor Front-end Jr__, onde foi pedido para criar um site baseado no design proposto no __Figma__ utilizando as técnologias: __React, Next JS e Sass.__
+Este projeto é um __desafio técnico__ para a vaga de __desenvolvedor Front-end Jr__, onde foi pedido para criar uma Todo List baseado no design proposto no __Figma__ utilizando as técnologias: __React, Next JS e Sass.__
 
 #react #next #sass
 
