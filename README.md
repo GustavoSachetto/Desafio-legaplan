@@ -1,5 +1,7 @@
 # Desafio legaplan
+![Focal-point](https://github.com/user-attachments/assets/9854d28f-910a-4b0c-bbbc-8f76601e7495)
 
+## Sobre
 Este projeto é um __desafio técnico__ para a vaga de __desenvolvedor Front-end Jr__, onde foi pedido para criar uma Todo List baseado no design proposto no __Figma__ utilizando as técnologias: __React, Next JS e Sass.__
 
 #react #next #sass
@@ -21,15 +23,11 @@ Neste projeto trabalhei com as seguintes técnologias:
 - Server components e Client components
 
 ## Comandos iniciais
+Comandos para executar o projeto na sua máquina local:
+
 ```
 npm install
-```
-```
 npm run dev
 ```
-
-## Resultado
-![Focal-point](https://github.com/user-attachments/assets/9854d28f-910a-4b0c-bbbc-8f76601e7495)
-
 
 ********************************
