@@ -26,7 +26,7 @@ Neste projeto trabalhei com as seguintes técnologias:
 Comandos para executar o projeto na sua máquina local:
 
 ```
-npm install
+npm install &&
 npm run dev
 ```
 
